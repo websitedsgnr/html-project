@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial scale=1.0">
+        <meta name="author" content="Jon Doe">
+        <meta name="description" content="Photogrpahy portfolio">
+        <link rel="icon" href="/images/fav.jpeg">
+        <link rel="stylesheet" href="style.css">
+        <title>Contact</title>
+
+    </head>
+
+    <body>
+        
+        <header>
+          <h1>Contact Me</h1>
+          <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </nav>
+        </header>
+
+        <main>
+            <section>
+            <h2>Get in Touch</h2>
+            <p>I'd love to hear from you! Fill out the form below or use the contact information 
+                provided.</p>
+
+                </section>
+
+                <section>
+
+            <h3>Contact Form</h3>
+
+            <form action="https://httpbin.org/post" method="post" enctype="multipart/form-data" id="nav">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+
+                    <p>
+
+                    <label for="name">Name:</label><br>
+                    <input type="text" name="name" id="name" required placeholder="Your full name">
+                </p>
+
+                <p>
+
+                    <label for="email">Email</label><br>
+                    <input type="email" name="email" id="email" required placeholder="your email@example.com">
+                </p>
+
+                <p>
+
+                    <label for="phone">Phone:</label><br>
+                    <input type="tel" name="phone" id="phone" required placeholder="1234567890" pattern="[0-9]{3}[0-9]{3}[0-9]{4}">
+
+                </p>
+               </fieldset>
+
+               
+               <fieldset>
+                <legend>Your Message</legend>
+                <p>
+
+                <label for="subject">Subject:</label><br>
+                <select name="subject" id="subject">
+
+                    <option value="Select a subject">Select a subject</option>
+
+                    <optgroup label="Services">
+                        <option value="Book a Session">Book a Session</option>
+                        <option value="Request Quote">Request Quote</option>
+                        
+                    </optgroup>
+
+                    <optgroup label="Other">
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                    </optgroup>
+
+              
+
+                </select>
+            </p>
+            
+<p>
+                <label for="message">Message:</label><br>
+                <textarea name="message" id="message" placeholder="Your message here..." rows="5" cols="40" required></textarea>
+
+                <p>
+
+              <label for="attach">Attach Reference Image (optional):</label><br>
+               <input type="file" name="attach" id="attach" multiple>
+
+            </p>
+
+            <p>
+                <input type="checkbox" name="subscribe" id="subscribe">
+                <label for="subscribe">Subscribe to newsletter</label>
+               
+            </p>
+
+       
+            <p>Preferred Contact Method:</p>
+        <label for="contact">Email:</label>
+        <input type="radio" name="contact" id="contact"> 
+
+        <label for="tel">Phone</label>
+        <input type="radio" name="contact" id="tel">
+
+   
+               </fieldset>
+
+               <p>
+
+               <button type="submit">Send Message</button>
+               <button type="reset">Clear Form</button>
+            </p>
+</form>
+ </section>
+
+ <section>
+    <h3>Business Hours</h3>
+
+    <table>
+        <caption>When to Reach Us</caption>
+            <thead>
+                
+            <tr>
+                <th>Day</th>
+                <th>Hours</th>
+            </tr>
+</thead>
+
+<tbody>
+    <tr>
+        <td>Monday - Friday</td>
+        <td>9:00 AM - 5:00 PM</td>
+    </tr>
+
+    <tr>
+        <td>Saturday</td>
+        <td>10:00 AM - 3:00 PM
+        </td>
+    </tr>
+
+    <tr>
+        <td>Sunday</td>
+        <td>Closed</td>
+    </tr>
+
+</tbody>
+    </table>
+ </section>
+
+ <section>
+    <h3>Contact Information</h3>
+
+    <address>
+
+<strong>Doe Photography Studio</strong> <br>
+Email: <a href="mailto:john.doe@example.com">john.doe@example.com</a> <br>
+Phone: <a href="tel:(555)123-4567">(555) 123-4567</a> <br>
+Address: 123 Photography Street, <br>
+Photo City, PC 12345
+
+</address>
+ </section>
+
+ <section>
+    <h3>FAQ</h3>
+    <aside>
+        <details>
+            <summary>What areas do you serve?</summary>
+            <p>I primarily serve the Photo City metropolitan area and am willing to travel up to 50 miles for photo shoots.</p>
+        </details>
+
+        <details>
+
+            <summary>What are your rates?</summary>
+            <p>Session rates start at $200 for a 2-hour shoot. Please contact me for a custom quote.</p>
+</details>
+    </aside>
+ </section>
+
+ <hr>
+</main>
+
+ <footer>
+    <p>&copy; 2024 John Doe Photography. All rights reserved.</p>
+
+    <h4>Quick Links</h4>
+    <nav>
+    <ul>
+        <li><a href="#nav">Privacy Policy</a></li>
+        <li><a href="#nav">Terms of Service</a></li>
+        <li><a href="#nav">Sitemap</a></li>
+</ul>
+</nav>
+ </footer>
+
+</body>
+</html>
+
